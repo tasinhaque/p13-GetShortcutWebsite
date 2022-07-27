@@ -1,0 +1,25 @@
+body{
+    background: #1b1b1b;
+    font-family: poppins, sans-serif;
+}
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.container ol li h3{
+    color: #ffffff;
+    list-style: none;
+    padding: 20px 0;
+    font-size: 30px;
+}
+.container ol li{
+    font-size: 20px;
+}
+.sec5{
+    background: #1b1b1b;
+}
+.footer, .copyright{
+    background: #151515;
+}

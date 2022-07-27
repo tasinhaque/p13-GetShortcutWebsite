@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1b1b1b;
+}
+
+.container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+   
+    
+}
+.container form{
+    background: #151515;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 30px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.5);
+    align-items: center;
+}
+.container form i.fa-envelope{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 15px 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+    margin: 10px;
+}
+.container form input{
+    padding: 10px 15px;
+    margin: 15px;
+    width: 315px;
+    outline: none;
+    border: 2px solid cyan;
+    border-radius: 24px;
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+    
+}
+form button{
+    margin: 15px;
+    padding: 5px 10px;
+    width: 210px;
+    text-align: center;
+    background: none;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-size: 25px;
+    border-radius: 24px;
+    outline: none;
+    border: 2px solid cyan;
+   
+}
+form button:hover{
+    background: cyan;
+    color: #000000;
+    box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+}
+form button i{
+    padding: 0 10px;
+  
+}
+@media all and (max-width:440px){
+    .container form{
+        padding: 10px 15px;
+        margin: auto;
+        height: auto;
+    }
+    .container form input{
+        padding: 5px 10px;
+        margin: 10px;
+        width: auto;
+        font-size: 15px;
+        
+    }
+    form button{
+        margin: 10px;
+        padding: 5px 5px;
+        width: 150px;
+        font-size: 17px;
+      
+       
+    }
+
+
+}

@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    padding: 5px 40px;
+    background: #151515;
+   
+
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+nav ul li{
+    padding: 15px 0;
+    cursor: pointer;
+
+}
+nav ul li:hover a{
+    color: cyan;
+    transition: all 0.1s ease;
+}
+nav ul li.items{
+    width: auto;
+    margin: 0 16px;
+    position: relative;
+    text-align: center;
+}
+
+nav ul li.logo{
+    color: #ffffff;
+    font-size: 35px;
+    user-select: none;
+    flex: 1;
+    font-family: poppins, sans-serif;
+    font-weight: 500;
+    letter-spacing: 2px;
+    
+}
+nav ul li.logo i{
+    
+    padding: 0 15px;
+    font-size: 35px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: poppins, sans-serif;
+    
+}
+/* navbar css ends here*/
+.sec2{
+    background: #151515;
+   
+
+}
+.sec2 h2{
+    text-align: center;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.sec2 .code{
+    padding: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec2 .code i{
+    color: #ffffff;
+    font-size: 120px;
+    padding: 35px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+   
+}
+.sec2 .code i:hover{
+    color: cyan
+}
+.sec2 p{
+    margin-left: 150px;
+    width: 480px;
+    height: 230px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+    padding: 15px 0px;
+    
+    
+}
+.sec2 p button{
+    margin-top: 25px;
+    background: none;
+    outline: none;
+    border-radius: 24px;
+    padding: 5px 15px;
+    border: 2px solid cyan;
+    transition: all 0.1s ease;
+    
+}
+.sec2 p button:hover{
+    background: cyan;
+    box-shadow: 0 0 20px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 30px rgb(0, 255, 255);
+}
+.sec2 p button a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.1s ease;
+}
+.sec2 p button a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+/*sec 2 css ends here*/
+.sec3{
+    background: #1b1b1b;
+   
+
+}
+.sec3 h2{
+    text-align: center;
+    padding: 20px 30px;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.sec3 .html{
+    padding: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec3 .html i{
+    color: #e44d26;
+    font-size: 160px;
+    padding: 30px 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+   
+}
+
+.sec3 p{
+    margin-left: 150px;
+    width: 480px;
+    height: 210px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+    padding: 15px 0px;
+    
+    
+}
+.sec3 p button{
+    margin-top: 25px;
+    background: none;
+    outline: none;
+    border-radius: 24px;
+    padding: 5px 15px;
+    border: 2px solid cyan;
+    transition: all 0.1s ease;
+    
+}
+.sec3 p button:hover{
+    background: cyan;
+    box-shadow: 0 0 20px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 30px rgb(0, 255, 255);
+}
+.sec3 p button a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.1s ease;
+}
+.sec3 p button a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+/*sec 3 css ends here*/
+.sec4{
+    background: #151515;
+   
+
+}
+.sec4 .bootstrap{
+    padding: 40px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec4 .bootstrap i{
+    color: #7311f6;
+    font-size: 150px;
+    padding: 35px 55px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    cursor: pointer;
+   
+}
+.sec4 p{
+    margin-left: 150px;
+    width: 480px;
+    height: 210px;
+    overflow: hidden;
+    font-size: 25px;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+    padding: 15px 0px;
+    
+    
+}
+.sec4 p button{
+    margin-top: 25px;
+    background: none;
+    outline: none;
+    border-radius: 24px;
+    padding: 5px 15px;
+    border: 2px solid cyan;
+    transition: all 0.1s ease;
+    
+}
+.sec4 p button:hover{
+    background: cyan;
+    box-shadow: 0 0 20px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 30px rgb(0, 255, 255);
+}
+.sec4 p button a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: all 0.1s ease;
+}
+.sec4 p button a:hover{
+    text-decoration: none;
+    color: #000000;
+}
+/*sec 4 css ends here*/
+.sec5{
+    background: #151515;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec5 .more{
+    
+    padding: 40px 20px;
+}
+.sec5 .more a{
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: poppins, sans-serif;
+    border-radius: 25px;
+    outline: none;
+    border: 2px solid cyan;
+    transition: all 0.1s ease;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.sec5 .more a:hover{
+    background: cyan;
+    color: #151515;
+    box-shadow: 0 0 20px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 30px rgb(0, 255, 255);
+}
+/*sec 5 css ends here*/
+.sec6{
+    background: #151515;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.sec6 .contact{
+    align-items: center;
+    margin: 20px;
+    padding: 10px 20px;
+    justify-content: center;
+    text-align: center;
+}
+.sec6 .contact p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: poppins, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+.sec6 .contact p a{
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #1b1b1b;
+    
+
+}
+.footer .left-side{
+    padding: 50px 20px;
+    color: #ffffff;
+    background: transparent;
+}
+.footer .left-side i{
+    padding: 0 20px;
+    font-size: 25px;
+}
+.footer .left-side h4{
+    font-size: 20px;
+    font-family: poppins,sans-serif;
+    letter-spacing: 2px;
+}
+.footer .left-side h4 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer .right-side{
+    padding: 30px 20px;
+    margin: auto;
+}
+.footer .right-side form{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    color: #ffffff;
+}
+.footer .right-side form input{
+    margin: 15px;
+    width: 370px;
+    font-size: 20px;
+    outline: none;
+    background: none;
+    border: 2px solid cyan;
+    border-radius: 24px;
+    padding: 8px 20px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+}
+.footer .right-side form input[type="submit"]{
+    font-size: 25px;
+}
+.footer .right-side form input[type="submit"]:hover{
+    background: cyan;
+    color: #000000;
+    box-shadow: 0 0 20px rgb(0, 255, 255), 0 0 20px rgb(0, 255, 255), 0 0 30px rgb(0, 255, 255);    
+   
+}
+.copyright{
+    background: red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #1b1b1b;
+    text-align: center;
+}
+.copyright .text{
+   
+    padding: 10px 15px;
+    color: #ffffff;
+    font-family: poppins, sans-serif;
+    font-size: 11px;
+}
+   
+
+
+
+
+
+
+
+
+@media all and (max-width: 1000px){
+    nav{
+        padding: 5px 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    nav ul li.logo{
+        text-align: center;
+        width: 100%;
+    }
+    nav ul li.items{
+        width: 100%;
+        text-align: center;
+    }
+    .sec2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec2 p{
+        margin: 30px auto;
+        padding: 25px 0;
+        width: 440px;
+        height: auto; 
+    }
+    .sec2 .code i{
+        font-size: 120px;
+        padding: 25px;
+        margin: auto;
+    }
+    .sec3{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec3 p{
+        margin: 30px auto;
+        padding: 25px 0;
+        width: 440px;
+        height: auto; 
+    }
+    .sec3 .html i{
+        font-size: 120px;
+        padding: 25px;
+        margin: auto;
+    }
+    .sec4{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sec4 p{
+        margin: 30px auto;
+        padding: 25px 0;
+        width: 440px;
+        height: auto; 
+    }
+    .sec4 .bootstrap i{
+        font-size: 120px;
+        padding: 25px;
+        margin: auto;
+    }
+    .sec5 .more a{
+        padding: 5px 10px;
+       
+    
+        
+    }
+    .footer{
+        justify-content: center;
+    }
+    .footer .right-side form input{
+        margin: 10px;
+        width: 280px;
+        font-size: 16px;
+      
+    }
+    .footer .left-side{
+        padding: 30px 5px;
+        color: #ffffff;
+        background: transparent;
+    }
+    .left-side form{
+        padding: ;
+    }
+    .footer .left-side i{
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+    .footer .left-side h4{
+        font-size: 20px;
+        font-family: poppins,sans-serif;
+        letter-spacing: 2px;
+    }
+    .about-us{
+     margin: 0;
+    }
+    .about-us p{
+      padding: 10px 20px;
+      margin: 0;
+
+       
+    }
+    
+   
+}
